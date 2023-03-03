@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import { Widget } from '@typeform/embed-react';
 import settings from '../lib/settings';
-import { BrandSettings } from '../lib/types';
-
-// import background from '../public/CircuitBackground.png';
-// import SourceconDigitalLogoWhite from '../public/SourceconDigitalLogoWhite.png';
+import type { BrandSettings } from '../lib/types';
 
 if (
   process.env.NEXT_PUBLIC_BRAND !== 'ere' &&
@@ -16,7 +13,7 @@ if (
 
 const brandSettings: BrandSettings = settings[process.env.NEXT_PUBLIC_BRAND];
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <Head>
