@@ -18,7 +18,7 @@ const settings = {
   },
   sourcecon: {
     brandName: 'SourceCon',
-    surveyActive: false,
+    surveyActive: true,
     typeformId: 'saoikhzc',
     useDefiniteArticle: false,
     favicon: '/images/favicons/sourcecon.ico',
