@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Widget } from '@typeform/embed-react';
-import settings from '../lib/settings';
+import settings from '../components/settings';
 import type { BrandSettings } from '../lib/types';
 
 if (
