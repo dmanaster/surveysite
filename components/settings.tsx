@@ -6,7 +6,7 @@ import Talent42Logo from '../public/images/talent42LogoWhite.png';
 const settings = {
   ere: {
     brandName: 'ERE Recruiting Conference',
-    surveyActive: true,
+    surveyActive: false,
     typeformId: 'zoFJfQTJ',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ere.ico',
@@ -30,8 +30,8 @@ const settings = {
   },
   talent42: {
     brandName: 'Talent42',
-    surveyActive: false,
-    typeformId: 'RlMAkQD9',
+    surveyActive: true,
+    typeformId: 'QQm0EdEq',
     useDefiniteArticle: false,
     favicon: '/images/favicons/talent42.ico',
     logo: (
