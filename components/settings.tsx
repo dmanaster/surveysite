@@ -30,7 +30,7 @@ const settings = {
   },
   talent42: {
     brandName: 'Talent42',
-    surveyActive: true,
+    surveyActive: false,
     typeformId: 'QQm0EdEq',
     useDefiniteArticle: false,
     favicon: '/images/favicons/talent42.ico',
