@@ -5,7 +5,7 @@ import Talent42Logo from '../public/images/talent42LogoWhite.png';
 
 const settings = {
   ere: {
-    brandName: 'ERE Recruiting Conference',
+    name: 'ERE Recruiting Conference',
     text: (
       <div>
         <p className="mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
@@ -27,7 +27,7 @@ const settings = {
     ),
   },
   sourcecon: {
-    brandName: 'SourceCon',
+    name: 'SourceCon',
     text: (
       <div>
         <p className="mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
@@ -55,7 +55,7 @@ const settings = {
     ),
   },
   talent42: {
-    brandName: 'Talent42',
+    name: 'Talent42',
     text: (
       <div>
         <p className="mx-auto mt-3 text-xl text-gray-500 sm:mt-4">

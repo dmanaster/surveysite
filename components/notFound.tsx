@@ -29,7 +29,7 @@ const NotFound = (): JSX.Element => {
                 <div className="mt-6">
                   <Link
                     href="/"
-                    className="flex justify-center text-lg font-medium text-blue-600 hover:text-blue-700"
+                    className="text-main-textDark hover:text-main-textDarkHover flex justify-center text-lg font-medium"
                   >
                     Go back home
                     <HiArrowRight className="ml-2 h-7 w-7" aria-hidden="true" />
