@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { HiArrowRight } from 'react-icons/hi2';
-import squirrel404 from 'public/images/squirrel404.png';
+import squirrel404 from '../public/images/squirrel404.png';
 
 const NotFound = (): JSX.Element => {
   return (

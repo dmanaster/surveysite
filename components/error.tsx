@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { HiArrowRight } from 'react-icons/hi2';
-import squirrel500 from 'public/images/squirrel500.png';
+import squirrel500 from '../public/images/squirrel500.png';
 
 const Error = (): JSX.Element => {
   return (

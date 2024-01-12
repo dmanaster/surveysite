@@ -46,13 +46,7 @@ export default function Home(): JSX.Element {
                 {brandSettings.useDefiniteArticle ? 'the ' : ''}
                 {brandSettings.brandName}!
               </h2>
-              <p className="mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
-                We want to provide you with the best {brandSettings.brandName}{' '}
-                experience possible, so we'd like to hear your thoughts on the
-                event and how we can improve. Please take a few minutes to
-                complete this survey. Your feedback is very valuable to us -
-                thank you!
-              </p>
+              {brandSettings.text}
             </div>
           </div>
           <div className="flex w-full min-w-full justify-center">
