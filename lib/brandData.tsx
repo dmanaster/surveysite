@@ -16,7 +16,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: false,
+    surveyActive: true,
     typeformId: 'YywasPNi',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ere.ico',
