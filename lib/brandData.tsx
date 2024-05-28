@@ -16,7 +16,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: true,
+    surveyActive: false,
     typeformId: 'YywasPNi',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ere.ico',
@@ -67,7 +67,7 @@ const settings = {
       </div>
     ),
     surveyActive: false,
-    typeformId: 'QQm0EdEq',
+    typeformId: 'jKRJsyrn',
     useDefiniteArticle: false,
     favicon: '/images/favicons/talent42.ico',
     logo: (
