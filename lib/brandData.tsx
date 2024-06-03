@@ -66,7 +66,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: false,
+    surveyActive: true,
     typeformId: 'jKRJsyrn',
     useDefiniteArticle: false,
     favicon: '/images/favicons/talent42.ico',
