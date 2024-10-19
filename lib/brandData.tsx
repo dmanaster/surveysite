@@ -44,7 +44,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: true,
+    surveyActive: false,
     typeformId: 'CF2Y6EAi',
     useDefiniteArticle: false,
     favicon: '/images/favicons/sourcecon.ico',
