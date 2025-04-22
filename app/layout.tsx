@@ -38,7 +38,8 @@ export default function RootLayout({
 if (
   process.env.NEXT_PUBLIC_BRAND !== 'ere' &&
   process.env.NEXT_PUBLIC_BRAND !== 'sourcecon' &&
-  process.env.NEXT_PUBLIC_BRAND !== 'talent42'
+  process.env.NEXT_PUBLIC_BRAND !== 'talent42' &&
+  process.env.NEXT_PUBLIC_BRAND !== 'ris'
 ) {
   throw new Error(`NEXT_PUBLIC_BRAND is not an event brand`);
 }

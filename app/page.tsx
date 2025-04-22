@@ -5,7 +5,8 @@ import type { BrandData } from '../lib/types';
 if (
   process.env.NEXT_PUBLIC_BRAND !== 'ere' &&
   process.env.NEXT_PUBLIC_BRAND !== 'sourcecon' &&
-  process.env.NEXT_PUBLIC_BRAND !== 'talent42'
+  process.env.NEXT_PUBLIC_BRAND !== 'talent42' &&
+  process.env.NEXT_PUBLIC_BRAND !== 'ris'
 ) {
   throw new Error(`NEXT_PUBLIC_BRAND is not an event brand`);
 }
@@ -26,16 +27,18 @@ export default async function Home(): Promise<React.ReactElement> {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
             {logo}
-            <h1 className="text-center tracking-tight">
-              {process.env.NEXT_PUBLIC_BRAND !== 'talent42' && (
-                <span className="block text-3xl font-bold leading-tight text-white sm:text-5xl">
-                  {name}
+            {process.env.NEXT_PUBLIC_BRAND !== 'ris' && (
+              <h1 className="text-center tracking-tight">
+                {process.env.NEXT_PUBLIC_BRAND !== 'talent42' && (
+                  <span className="block text-3xl font-bold leading-tight text-white sm:text-5xl">
+                    {name}
+                  </span>
+                )}
+                <span className="mt-2 block text-3xl font-semibold leading-tight text-white sm:text-5xl">
+                  Survey
                 </span>
-              )}
-              <span className="mt-2 block text-3xl font-semibold leading-tight text-white sm:text-5xl">
-                Survey
-              </span>
-            </h1>
+              </h1>
+            )}
           </div>
         </div>
       </div>

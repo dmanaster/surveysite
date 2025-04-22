@@ -2,6 +2,7 @@ import Image from 'next/image';
 import SourceconLogo from '../components/sourceconCircles';
 import EreLogo from '../components/ereCircles';
 import Talent42Logo from '../public/images/talent42LogoWhite.png';
+import RISLogo from '../public/images/risLogoWhite.png';
 
 const settings = {
   ere: {
@@ -16,7 +17,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: true,
+    surveyActive: false,
     typeformId: 'u57daIg0',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ere.ico',
@@ -73,6 +74,30 @@ const settings = {
     logo: (
       <div className="relative mx-auto w-60 pb-2 sm:w-96">
         <Image src={Talent42Logo} alt="Talent42 logo" />
+      </div>
+    ),
+  },
+  ris: {
+    name: 'ERE Recruiting Innovation Summit',
+    text: (
+      <div>
+        <p className="mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
+          We want to provide you with the best ERE Recruiting Innovation Summit
+          experience possible, so we'd like to hear your thoughts on the event
+          and how we can improve. Please take a few minutes to complete this
+          survey. Your feedback is very valuable to us - thank you!
+        </p>
+      </div>
+    ),
+    surveyActive: false,
+    typeformId: 'yRSPPguc',
+    useDefiniteArticle: true,
+    favicon: '/images/favicons/ris.ico',
+    logo: (
+      <div className="fill-white stroke-white">
+        <div className="relative pb-2">
+          <Image src={RISLogo} alt="Talent42 logo" className="mx-auto w-72" />
+        </div>
       </div>
     ),
   },
