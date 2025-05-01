@@ -89,7 +89,7 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: false,
+    surveyActive: true,
     typeformId: 'yRSPPguc',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ris.ico',
