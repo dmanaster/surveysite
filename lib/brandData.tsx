@@ -89,14 +89,18 @@ const settings = {
         </p>
       </div>
     ),
-    surveyActive: true,
-    typeformId: 'yRSPPguc',
+    surveyActive: false,
+    typeformId: 'v7fGWFrg',
     useDefiniteArticle: true,
     favicon: '/images/favicons/ris.ico',
     logo: (
       <div className="fill-white stroke-white">
         <div className="relative pb-2">
-          <Image src={RISLogo} alt="Talent42 logo" className="mx-auto w-72" />
+          <Image
+            src={RISLogo}
+            alt="ERE Recruiting Innovation Summit logo"
+            className="mx-auto w-72"
+          />
         </div>
       </div>
     ),

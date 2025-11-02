@@ -3,7 +3,7 @@
 const cspHeader = `
   default-src 'self';
   connect-src 'self';
-  frame-src 'self' https://form.typeform.com/;
+  frame-src 'self' https://www.typeform.com/ https://form.typeform.com/;
   media-src 'self';
   script-src 'self' 'unsafe-eval' 'unsafe-inline';
   style-src 'self' 'unsafe-inline';
